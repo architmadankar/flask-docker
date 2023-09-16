@@ -5,7 +5,7 @@ Test it out with
 
 ```bash
 $> docker build -t application:latest .
-$> docker run -p 5000:5000 application:latest
+$> docker run -p 80:80 application:latest
 ```
 
-Open http://localhost:5000/
+Open http://<your_vm_ip>
