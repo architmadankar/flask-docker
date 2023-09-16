@@ -5,5 +5,5 @@ RUN pip install --no-cache-dir -r /srv/helloworld/requirements.txt
 
 ADD . /srv/helloworld/
 
-EXPOSE 5000
+EXPOSE 80
 CMD python3 /srv/helloworld/application.py
