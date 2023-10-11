@@ -1,6 +1,14 @@
 # flask-docker-helloworld
 Sample project to build a flask hello-world application with docker
 
+
+Simply clone this repository
+
+```bash
+$> https://github.com/architmadankar/flask-docker.git
+```
+
+
 Build Docker Image 
 
 ```bash
